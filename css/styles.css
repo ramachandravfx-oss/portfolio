@@ -1443,7 +1443,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about-photo-card img {
   width: 100%;
+  height: auto;
   display: block;
+  object-fit: cover;
+  object-position: center 15%;
+  transition: transform 0.5s ease;
+}
+.about-photo-card:hover img {
+  transform: scale(1.03);
 }
 .about-badges-float {
   position: absolute;
