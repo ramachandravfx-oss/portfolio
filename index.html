@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAMA CHANDRA — Senior Video &amp; Photo Editor | Photoshop Retoucher &amp; 3D VFX Artist</title>
+  <meta name="description" content="Portfolio of Rama Chandra: Senior Video Editor & Master Photo Retoucher with 10+ years of experience in Adobe Photoshop, Premiere Pro, After Effects, 3ds Max, and DaVinci Resolve." />
+  <meta name="keywords" content="Rama Chandra, Photo Editor, Photoshop Retouching, Video Editor, Frequency Separation, Dodge and Burn, 3ds Max, Premiere Pro, After Effects, Suman TV" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Syne:wght@700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Studio Grain & Vignette -->
+  <div class="film-grain" aria-hidden="true"></div>
+  <div class="cinema-vignette" aria-hidden="true"></div>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor" class="custom-cursor" aria-hidden="true"></div>
+  <div id="custom-cursor-dot" class="custom-cursor-dot" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" title="Rama Chandra Creative Suite">
+        <div class="brand-mark">RC</div>
+        <div class="brand-text">
+          <span class="brand-name">RAMA CHANDRA</span>
+          <span class="brand-tag">PHOTO &bull; VIDEO &bull; 3D VFX</span>
+        </div>
+      </a>
+
+      <!-- Availability Indicator -->
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        <span>OPEN FOR RETOUCHING &amp; VIDEO COMMISSIONS</span>
+      </div>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#retouch-studio" class="nav-link">Retouch Studio</a></li>
+        <li><a href="#projects" class="nav-link">Selected Works</a></li>
+        <li><a href="#dual-workspace" class="nav-link">Layers &amp; Timeline</a></li>
+        <li><a href="#metrics" class="nav-link">Impact</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Antigravity Physics Mode -->
+        <button id="antigravity-toggle" class="antigravity-toggle-btn" title="Toggle Interactive Zero-G Physics Simulation">
+          <span>⚡ ZERO-G</span>
+        </button>
+
+        <!-- Studio Sound SFX Toggle -->
+        <button id="audio-toggle-btn" class="audio-toggle-btn" title="Toggle Studio Audio SFX">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+          </svg>
+        </button>
+
+        <!-- Primary CTA -->
+        <a href="#contact" class="btn-primary">Book Project</a>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <!-- Darkroom Video Backdrop -->
+    <div class="hero-media-wrapper">
+      <video class="hero-video-bg" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1600&q=80">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-sky-in-a-sunset-26070-large.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-gradient-overlay"></div>
+    </div>
+
+    <!-- Dual Camera RAW EXIF & SMPTE HUD -->
+    <div class="hero-hud-top">
+      <div class="exif-badge">
+        <span>📷 SONY A7R V &bull; 61MP RAW &bull; 1/250s &bull; f/1.8 &bull; ISO 100</span>
+      </div>
+      <div class="smpte-box">
+        <span style="color: var(--accent-gold); font-weight: 700;">PRORES 4444 XQ</span>
+        <span style="opacity: 0.4;">|</span>
+        <span style="color: var(--accent-ps-blue); font-variant-numeric: tabular-nums;">01:00:24:18</span>
+      </div>
+      <div>
+        <span style="color: var(--accent-emerald);">● COLOR PROFILE: ADOBE RGB (1998) 16-BIT</span>
+      </div>
+    </div>
+
+    <div class="container hero-content">
+      <!-- Left Column -->
+      <div>
+        <div class="hero-role-pill">
+          <span>● 10+ Years Experience</span>
+          <span style="opacity: 0.4;">|</span>
+          <span>Photoshop Retoucher &bull; Video Editor &bull; 3D VFX</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span>RAMA CHANDRA</span><br />
+          <span class="title-accent">PHOTO &amp; VIDEO</span><br />
+          <span class="title-outline">MASTER POST</span>
+        </h1>
+
+        <p class="hero-desc">
+          Crafting pixel-perfect <strong>High-End Photoshop Retouching</strong>, 
+          <strong>Broadcast Video Editing (Suman TV Network)</strong>, and 
+          <strong>3ds Max 3D Visual Effects</strong>. Transforming raw exposures into timeless 
+          magazine covers, viral retention videos, and commercial campaigns.
+        </p>
+
+        <!-- Photoshop Interactive Floating Tool Palette -->
+        <div class="ps-floating-toolbar">
+          <button class="ps-tool-btn active" data-tool="Healing Brush &amp; Frequency Sep (J)" title="Healing Brush (J)">🖌️</button>
+          <button class="ps-tool-btn" data-tool="Clone Stamp (S)" title="Clone Stamp (S)">🔍</button>
+          <button class="ps-tool-btn" data-tool="Dodge &amp; Burn (O)" title="Dodge &amp; Burn (O)">☀️</button>
+          <button class="ps-tool-btn" data-tool="Pen Tool Vector Path (P)" title="Pen Tool (P)">✒️</button>
+          <button class="ps-tool-btn" data-tool="NLE Razor Cut Blade (C)" title="Razor Blade (C)">✂️</button>
+          <button class="ps-tool-btn" data-tool="Camera RAW Color Grading" title="Camera RAW">🎨</button>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hero-actions">
+          <a href="#retouch-studio" class="btn-primary">
+            <span>Interactive Retouch Studio ↔</span>
+          </a>
+          <button class="hero-soundtrack-pill hero-soundtrack-trigger">
+            <span>🎧 Play Soundtrack</span>
+          </button>
+          <button class="btn-secondary trigger-showreel-btn">
+            <span>Watch Video Reel ▶</span>
+          </button>
+          <a href="#projects" class="btn-secondary">Explore Works ↓</a>
+        </div>
+
+        <!-- Software Strip -->
+        <div class="hero-software-strip">
+          <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted);">TOOLCHAIN:</span>
+          <span class="software-tag ps">Photoshop CC</span>
+          <span class="software-tag pr">Premiere Pro</span>
+          <span class="software-tag ae">After Effects</span>
+          <span class="software-tag max">3ds Max 3D</span>
+          <span class="software-tag davinci">DaVinci Resolve</span>
+        </div>
+      </div>
+
+      <!-- Right Column: Studio Darkroom Monitor -->
+      <div>
+        <div class="hero-darkroom-card">
+          <div class="darkroom-topbar">
+            <div style="display: flex; gap: 6px;">
+              <span style="width: 9px; height: 9px; border-radius: 50%; background: #ff5f56;"></span>
+              <span style="width: 9px; height: 9px; border-radius: 50%; background: #ffbd2e;"></span>
+              <span style="width: 9px; height: 9px; border-radius: 50%; background: #27c93f;"></span>
+            </div>
+            <span style="color: var(--text-muted);">COVER_RETOUCH_16BIT.psd (300 DPI)</span>
+            <span style="color: var(--accent-gold); font-weight: 700;">100% ZOOM</span>
+          </div>
+
+          <div class="darkroom-viewport trigger-showreel-btn">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80" alt="High End Editorial Retouch" />
+            <div class="darkroom-retouch-hud">
+              <span class="hud-retouch-badge">★ FREQUENCY SEPARATION: ACTIVE</span>
+              <div class="hud-zoom-center"></div>
+              <div style="font-family: var(--font-mono); font-size: 0.68rem; color: #fff; background: rgba(0,0,0,0.6); padding: 0.3rem 0.6rem; border-radius: 4px; align-self: flex-end;">
+                DODGE &amp; BURN: 100% NON-DESTRUCTIVE
+              </div>
+            </div>
+          </div>
+
+          <div class="darkroom-bottombar">
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <img src="assets/images/rama-chandra.jpg" alt="Rama Chandra" style="width: 34px; height: 34px; border-radius: 50%; border: 1.5px solid var(--accent-ps-blue); object-fit: cover;" />
+              <div>
+                <strong style="color: #fff; font-size: 0.85rem;">Rama Chandra</strong>
+                <div style="font-size: 0.65rem; color: var(--text-muted);">Senior Photo &amp; Video Editor</div>
+              </div>
+            </div>
+            <div style="color: var(--accent-ps-blue); font-weight: 700;">
+              10+ YEARS EXPERT
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       KEY METRICS
+       ========================================================================== -->
+  <section class="metrics-section" id="metrics">
+    <div class="container">
+      <div class="metrics-grid">
+        <div class="metric-card gold">
+          <div class="metric-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div class="metric-val">
+            <span class="metric-val-num" data-target="10">0</span><span class="suffix">+</span>
+          </div>
+          <div class="metric-label">Years of Post-Production</div>
+          <div class="metric-sub">Photoshop, Video &amp; 3D CGI</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          </div>
+          <div class="metric-val">
+            <span class="metric-val-num" data-target="5000">0</span><span class="suffix">+</span>
+          </div>
+          <div class="metric-label">Commercial Photos Retouched</div>
+          <div class="metric-sub">Fashion, Products, Thumbnails</div>
+        </div>
+
+        <div class="metric-card gold">
+          <div class="metric-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          </div>
+          <div class="metric-val">
+            <span class="metric-val-num" data-target="500">0</span><span class="suffix">M+</span>
+          </div>
+          <div class="metric-label">Total Views Generated</div>
+          <div class="metric-sub">Broadcast &amp; Viral YouTube</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+          </div>
+          <div class="metric-val">
+            <span class="metric-val-num" data-target="1200">0</span><span class="suffix">+</span>
+          </div>
+          <div class="metric-label">Broadcast &amp; Video Edits</div>
+          <div class="metric-sub">Suman TV Network &amp; Ads</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SIGNATURE FEATURE: INTERACTIVE "BEFORE / AFTER" RETOUCH STUDIO
+       ========================================================================== -->
+  <section class="retouch-studio-section" id="retouch-studio">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">INTERACTIVE RETOUCHING LABORATORY</span>
+          <h2 class="section-title">BEFORE &amp; AFTER RETOUCH STUDIO</h2>
+          <p class="section-sub">
+            Drag the comparison slider horizontally to witness the difference between flat RAW camera sensor capture and Rama's multi-layered Photoshop retouching.
+          </p>
+        </div>
+      </div>
+
+      <div class="retouch-stage-container">
+        <!-- Draggable Split Viewer -->
+        <div class="split-viewer-card" id="split-viewer-card" title="Click &amp; Drag Horizontally to Compare">
+          <div class="split-image-before"></div>
+          <div class="split-image-after" id="split-image-after"></div>
+          <div class="split-handle" id="split-handle">
+            <div class="split-handle-knob">&#8596;</div>
+          </div>
+          <div class="split-tag tag-after">✨ RETOUCHED MASTER</div>
+          <div class="split-tag tag-before">📷 UNEDITED RAW</div>
+        </div>
+
+        <!-- 4-Step Retouching Architecture Breakdown -->
+        <div class="retouch-steps-card">
+          <div class="retouch-step-item">
+            <div class="step-header">
+              <span class="step-num">STEP 01</span>
+              <span class="step-name">16-Bit Frequency Separation</span>
+            </div>
+            <p class="step-desc">
+              Decouples high-frequency epidermal micro-pores from underlying low-frequency skin tones, smoothing blotchiness while keeping natural skin texture 100% crisp.
+            </p>
+          </div>
+
+          <div class="retouch-step-item">
+            <div class="step-header">
+              <span class="step-num" style="color: var(--accent-ps-blue);">STEP 02</span>
+              <span class="step-name">Micro Dodge &amp; Burn</span>
+            </div>
+            <p class="step-desc">
+              Hand-painted luminosity contouring on 50% neutral gray layers with Soft Light blending, sculpting jawline depth, cheekbone catchlights, and eye brilliance.
+            </p>
+          </div>
+
+          <div class="retouch-step-item">
+            <div class="step-header">
+              <span class="step-num">STEP 03</span>
+              <span class="step-name">Camera RAW Color Harmony</span>
+            </div>
+            <p class="step-desc">
+              Precise selective color channel calibration, correcting magenta/yellow color casts, harmonizing skin tones, and dialing in deep luxury film hues.
+            </p>
+          </div>
+
+          <div class="retouch-step-item">
+            <div class="step-header">
+              <span class="step-num" style="color: var(--accent-emerald);">STEP 04</span>
+              <span class="step-name">High-Pass Sharpening &amp; Grain</span>
+            </div>
+            <p class="step-desc">
+              Final print-ready output sharpening with subtle organic film grain overlay to eliminate digital banding for large format billboard delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE PORTFOLIO SHOWCASE (BENTO GRID - PHOTO & VIDEO)
+       ========================================================================== -->
+  <section class="section-wrapper" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">SELECTED PORTFOLIO &bull; 2014 &ndash; 2024</span>
+          <h2 class="section-title">THE WORKS: PHOTO &amp; VIDEO</h2>
+          <p class="section-sub">
+            Filter through high-end Photoshop retouching, broadcast media (Suman TV), 3D CGI simulations, and viral retention projects.
+          </p>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <div class="bento-filter-nav">
+        <button class="filter-btn active" data-filter="all">All Works <span class="filter-count">8</span></button>
+        <button class="filter-btn" data-filter="photo-retouch">Photoshop Retouching <span class="filter-count">3</span></button>
+        <button class="filter-btn" data-filter="broadcast">Broadcast (Suman TV) <span class="filter-count">2</span></button>
+        <button class="filter-btn" data-filter="vfx">3D CGI &amp; Matte <span class="filter-count">1</span></button>
+        <button class="filter-btn" data-filter="retention">Retention &amp; Key Art <span class="filter-count">1</span></button>
+        <button class="filter-btn" data-filter="commercials">Commercials &amp; Ads <span class="filter-count">1</span></button>
+      </div>
+
+      <div class="bento-grid" id="bento-grid-container">
+        <!-- Injected dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DUAL STUDIO WORKSPACE: PHOTOSHOP LAYERS & NLE TIMELINE
+       ========================================================================== -->
+  <section class="section-wrapper" id="dual-workspace" style="background: rgba(11, 14, 22, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">MASTER POST-PRODUCTION WORKSPACE</span>
+          <h2 class="section-title">LAYERS &amp; TIMELINES</h2>
+          <p class="section-sub">
+            Switch between Rama's non-destructive Photoshop Layer Stack and the multi-track NLE Video Timeline to inspect his editing architecture.
+          </p>
+        </div>
+      </div>
+
+      <div class="dual-suite-container">
+        <!-- Workspace Tabs -->
+        <div class="dual-suite-tabs">
+          <button class="suite-tab-btn active" id="tab-ps-layers">
+            <span>🎨 Photoshop CC Layer Architecture</span>
+          </button>
+          <button class="suite-tab-btn" id="tab-nle-timeline">
+            <span>🎬 Premiere &amp; DaVinci NLE Video Timeline</span>
+          </button>
+        </div>
+
+        <!-- View 1: Photoshop Layers -->
+        <div class="ps-layers-view active" id="view-ps-layers">
+          <div class="ps-layers-grid">
+            <div class="ps-layer-item" data-layer-name="Color Grading LUT &amp; Curves" data-layer-desc="Selective hue shifts, Kodak 5219 film emulation, and contrast curve pinned to 300 DPI print standards.">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge">L05</div>
+                <div>
+                  <div class="layer-name">Color Grading Curves &amp; Selective Color</div>
+                  <div class="layer-blend">Blend: Color &bull; Opacity: 85%</div>
+                </div>
+              </div>
+              <span style="color: var(--accent-ps-blue); font-size: 0.8rem;">Click to Inspect &rarr;</span>
+            </div>
+
+            <div class="ps-layer-item" data-layer-name="Micro Dodge &amp; Burn Layer" data-layer-desc="100% non-destructive sculpting of facial contours, rim lighting, and eye specular reflection.">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge" style="color: var(--accent-gold); background: rgba(255, 170, 0, 0.12);">L04</div>
+                <div>
+                  <div class="layer-name">Dodge &amp; Burn (50% Gray Neutral)</div>
+                  <div class="layer-blend">Blend: Soft Light &bull; Opacity: 100%</div>
+                </div>
+              </div>
+              <span style="color: var(--accent-gold); font-size: 0.8rem;">Click to Inspect &rarr;</span>
+            </div>
+
+            <div class="ps-layer-item" data-layer-name="High-Frequency Skin Pores" data-layer-desc="High-Pass filtered layer containing epidermal micro-texture, pores, and hair detail without tonal colors.">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge">L03</div>
+                <div>
+                  <div class="layer-name">High Frequency (Texture / Pores)</div>
+                  <div class="layer-blend">Blend: Linear Light &bull; Opacity: 100%</div>
+                </div>
+              </div>
+              <span style="color: var(--accent-ps-blue); font-size: 0.8rem;">Click to Inspect &rarr;</span>
+            </div>
+
+            <div class="ps-layer-item" data-layer-name="Low-Frequency Skin Color" data-layer-desc="Gaussian blurred tonal foundation containing smooth skin transitions, blush tones, and shadow transitions.">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge" style="color: var(--accent-emerald); background: rgba(16, 231, 178, 0.12);">L02</div>
+                <div>
+                  <div class="layer-name">Low Frequency (Skin Tones / Color)</div>
+                  <div class="layer-blend">Blend: Normal &bull; Opacity: 100%</div>
+                </div>
+              </div>
+              <span style="color: var(--accent-emerald); font-size: 0.8rem;">Click to Inspect &rarr;</span>
+            </div>
+
+            <div class="ps-layer-item" data-layer-name="Pen Tool Vector Clipping Mask" data-layer-desc="Sub-pixel vector pen tool pathing isolating the subject with feathering for seamless composites.">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge">L01</div>
+                <div>
+                  <div class="layer-name">Pen Tool Vector Subject Mask</div>
+                  <div class="layer-blend">Blend: Normal &bull; Feather: 0.8px</div>
+                </div>
+              </div>
+              <span style="color: var(--accent-ps-blue); font-size: 0.8rem;">Click to Inspect &rarr;</span>
+            </div>
+
+            <div class="ps-layer-item" data-layer-name="16-Bit RAW Background Plate" data-layer-desc="Untouched 61MP RAW digital negative preserving full dynamic range and highlight detail.">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge">RAW</div>
+                <div>
+                  <div class="layer-name">Master RAW Background Plate</div>
+                  <div class="layer-blend">Color Space: ProPhoto RGB / 16-Bit</div>
+                </div>
+              </div>
+              <span style="color: var(--text-muted); font-size: 0.8rem;">Locked Background 🔒</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- View 2: NLE Timeline -->
+        <div class="nle-timeline-view" id="view-nle-timeline">
+          <div class="nle-top-bar">
+            <div style="display: flex; align-items: center; gap: 0.75rem; font-family: var(--font-mono); font-size: 0.8rem;">
+              <span style="color: var(--accent-ps-blue); font-weight: 700;">▶ MASTER_COMMERCIAL_V04.seq</span>
+              <span style="color: var(--text-muted);">3840x2160 &bull; 23.976 fps &bull; Rec.709</span>
+            </div>
+            <div class="nle-vu-meters">
+              <span>AUDIO L/R</span>
+              <div class="vu-bars">
+                <div class="vu-channel"><div class="vu-fill" id="vu-fill-l"></div></div>
+                <div class="vu-channel"><div class="vu-fill" id="vu-fill-r"></div></div>
+              </div>
+              <span>-6 dBFS</span>
+            </div>
+          </div>
+
+          <div class="timeline-ruler-wrapper">
+            <div class="timeline-ruler-ticks">
+              <span>00:00:00:00</span>
+              <span>00:00:15:00</span>
+              <span>00:00:30:00</span>
+              <span>00:00:45:00</span>
+              <span>00:01:00:00</span>
+              <span>00:01:15:00</span>
+            </div>
+            <div class="timeline-playhead">
+              <div class="playhead-head"></div>
+            </div>
+          </div>
+
+          <div class="nle-tracks-viewport">
+            <div class="nle-track-row">
+              <div class="track-header">
+                <span style="font-weight: 700; color: #fff;">V3 [3D CGI]</span>
+                <span style="font-size: 0.65rem; color: var(--text-muted);">M S 🔒</span>
+              </div>
+              <div class="track-lane">
+                <div class="nle-clip clip-v3" style="width: 50%;">3ds Max: Cybernetic Render &amp; Matte</div>
+                <div class="nle-clip clip-v3" style="width: 35%;">After Effects: Trapcode Flares</div>
+              </div>
+            </div>
+
+            <div class="nle-track-row">
+              <div class="track-header">
+                <span style="font-weight: 700; color: var(--accent-gold);">V2 [Color]</span>
+                <span style="font-size: 0.65rem; color: var(--text-muted);">M S 🔒</span>
+              </div>
+              <div class="track-lane">
+                <div class="nle-clip clip-v2" style="width: 65%;">DaVinci: Kodak 5219 Film Emulation LUT</div>
+                <div class="nle-clip clip-v2" style="width: 30%;">Broadcast Gamut Safe</div>
+              </div>
+            </div>
+
+            <div class="nle-track-row">
+              <div class="track-header">
+                <span style="font-weight: 700; color: var(--accent-ps-blue);">V1 [A-Roll]</span>
+                <span style="font-size: 0.65rem; color: var(--text-muted);">M S 🔒</span>
+              </div>
+              <div class="track-lane">
+                <div class="nle-clip clip-v1" style="width: 40%;">Premiere: Suman TV Multi-Cam Sync</div>
+                <div class="nle-clip clip-v1" style="width: 55%;">Premiere: High-Retention Hook Cut</div>
+              </div>
+            </div>
+
+            <div class="nle-track-row">
+              <div class="track-header">
+                <span style="font-weight: 700; color: var(--accent-emerald);">A1 [Audio]</span>
+                <span style="font-size: 0.65rem; color: var(--text-muted);">M S 🔒</span>
+              </div>
+              <div class="track-lane">
+                <div class="nle-clip clip-a1" style="width: 95%;">Audition: Dialogue Spectral Repair + Foley</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT RAMA CHANDRA
+       ========================================================================== -->
+  <section class="section-wrapper" id="about">
+    <div class="container about-grid">
+      <div class="about-photo-card">
+        <img src="assets/images/rama-chandra.jpg" alt="Rama Chandra Senior Editor &amp; Retoucher" />
+        <div class="about-badges-float">
+          <div class="badge-years">10+</div>
+          <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-secondary); line-height: 1.3;">
+            <strong>YEARS</strong><br />
+            CONTINUOUS EDITING MASTERY
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="section-kicker">DIRECTOR OF POST &amp; RETOUCHING</span>
+        <h2 class="section-title">MEET RAMA CHANDRA</h2>
+
+        <p class="about-bio-text">
+          With over 10 years of dual mastery across <strong>high-end Photoshop retouching and cinematic video editing</strong>, 
+          <strong>Rama Chandra</strong> brings an unprecedented technical eye to every frame. Having overseen visual pipelines for 
+          the nationwide <strong>Suman TV Network</strong> and premier digital creators, he has retouched over 
+          <strong>5,000 commercial photographs &amp; thumbnails</strong> and delivered over <strong>1,200 broadcast and video cuts</strong> 
+          amassing over <strong>500,000,000 views</strong>.
+        </p>
+        <p class="about-bio-text">
+          Fluent in <strong>Adobe Photoshop</strong>, <strong>Premiere Pro</strong>, <strong>After Effects</strong>, <strong>3ds Max</strong>, 
+          and <strong>DaVinci Resolve</strong>, Rama seamlessly bridges the gap between still photography excellence and dynamic 
+          motion picture retention.
+        </p>
+
+        <div class="about-pillars">
+          <div class="pillar-card">
+            <div class="pillar-title">High-End Beauty Retouching</div>
+            <div class="pillar-desc">Non-destructive 16-bit Frequency Separation, Dodge &amp; Burn, and macro skin texture preservation.</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-title">High-Retention Video Editing</div>
+            <div class="pillar-desc">Sub-second pacing, multi-cam narrative flow, and algorithmic hook architecture for viral watch time.</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-title">3D CGI &amp; Matte Compositing</div>
+            <div class="pillar-desc">3ds Max hard-surface modeling, particle simulations, and seamless digital painting integration.</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-title">Broadcast &amp; Key Art Precision</div>
+            <div class="pillar-desc">Television-safe color compliance, high-CTR YouTube key art, and rapid 48-hour turnarounds.</div>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn-primary">Initiate Project Inquiry &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CLIENT TESTIMONIALS
+       ========================================================================== -->
+  <section class="section-wrapper" id="testimonials" style="background: rgba(14, 18, 26, 0.45);">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">VERIFIED CLIENT REVIEWS</span>
+          <h2 class="section-title">WHAT PRODUCERS &amp; DIRECTORS SAY</h2>
+          <p class="section-sub">
+            Endorsements from broadcast networks, commercial photographers, and top creator studios.
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div>
+            <div style="color: var(--accent-gold); font-size: 0.9rem; margin-bottom: 0.5rem;">★★★★★</div>
+            <p class="testimonial-text">
+              &ldquo;Rama’s speed and technical accuracy are unmatched. From broadcast television cuts on Suman TV to creating striking magazine-grade photo thumbnails, his work elevates our entire brand.&rdquo;
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="client-name">Suman TV Media Network</div>
+            <div class="client-role">Broadcast Production Head</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div style="color: var(--accent-gold); font-size: 0.9rem; margin-bottom: 0.5rem;">★★★★★</div>
+            <p class="testimonial-text">
+              &ldquo;His Photoshop retouching is the cleanest in the industry. Skin textures remain 100% natural and detailed without any plastic blur. Plus, his 3ds Max CGI integration is Hollywood tier.&rdquo;
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="client-name">NovaTech Hardware Labs</div>
+            <div class="client-role">Creative Director &amp; Founder</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div style="color: var(--accent-gold); font-size: 0.9rem; margin-bottom: 0.5rem;">★★★★★</div>
+            <p class="testimonial-text">
+              &ldquo;Our channel’s click-through rate jumped from 4.8% to 14.2% after Rama took over our Photoshop thumbnail design and retention video editing. An absolute powerhouse talent.&rdquo;
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="client-name">Viral Velocity Studios</div>
+            <div class="client-role">Managing Director (3.4M Subscribers)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT & BOOKING
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <span class="section-kicker">COLLABORATE WITH RAMA CHANDRA</span>
+          <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.1;">
+            READY TO ELEVATE YOUR VISUAL POST?
+          </h2>
+          <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 2rem;">
+            Available for High-End Photoshop Retouching, Commercial &amp; Broadcast Video Editing, 3D VFX (3ds Max / After Effects), and YouTube Key Art.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <a href="mailto:ramachandra.vfx@gmail.com" class="ps-layer-item" style="text-decoration: none; color: inherit;">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge">✉️</div>
+                <div>
+                  <div class="layer-name">Direct Editorial Mailbox</div>
+                  <div class="layer-blend" style="color: var(--accent-ps-blue);">ramachandra.vfx@gmail.com</div>
+                </div>
+              </div>
+            </a>
+
+            <div class="ps-layer-item">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge" style="color: var(--accent-gold); background: rgba(255,170,0,0.12);">★</div>
+                <div>
+                  <div class="layer-name">Post-Production Mastery</div>
+                  <div class="layer-blend">10+ Years Experience &bull; 5,000+ Retouched Photos</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ps-layer-item">
+              <div class="ps-layer-info">
+                <div class="layer-icon-badge" style="color: var(--accent-emerald); background: rgba(16,231,178,0.12);">💻</div>
+                <div>
+                  <div class="layer-name">Primary Software Suite</div>
+                  <div class="layer-blend">Photoshop CC &bull; Premiere Pro &bull; 3ds Max &bull; After Effects</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-form-card">
+          <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.5rem;">
+            PROJECT INQUIRY &amp; RATE CARD
+          </h3>
+
+          <form id="booking-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name / Studio *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Elena Rostova, Vogue Studio" required />
+              </div>
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="director@production.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-project-type" class="form-label">Requested Service</label>
+                <select id="form-project-type" class="form-select">
+                  <option value="High-End Beauty &amp; Fashion Retouching (Photoshop)">High-End Beauty &amp; Fashion Retouching (Photoshop)</option>
+                  <option value="Commercial Product &amp; E-Commerce Retouching">Commercial Product &amp; E-Commerce Retouching</option>
+                  <option value="Broadcast Video Editing (Suman TV Style)">Broadcast Video Editing (Suman TV Style)</option>
+                  <option value="High-Retention YouTube Video &amp; Thumbnails">High-Retention YouTube Video &amp; Thumbnails</option>
+                  <option value="3D CGI &amp; VFX Compositing (3ds Max/AE)">3D CGI &amp; VFX Compositing (3ds Max/AE)</option>
+                  <option value="Full Photo + Video Post Production Package">Full Photo + Video Post Production Package</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="form-budget" class="form-label">Budget / Timeline</label>
+                <select id="form-budget" class="form-select">
+                  <option value="Standard Production ($500 - $1,500)">Standard Project ($500 - $1,500)</option>
+                  <option value="Commercial Campaign ($1,500 - $5,000)">Commercial Campaign ($1,500 - $5,000)</option>
+                  <option value="High-End Studio Retainer ($5,000+)">High-End Studio Retainer ($5,000+)</option>
+                  <option value="Urgent 24-48h Rush Job">Urgent 24-48h Rush Turnaround</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" class="form-label">Project Scope &amp; Raw Asset Links *</label>
+              <textarea id="form-message" class="form-textarea" placeholder="Describe the photo retouching or video editing requirements, number of RAW files/footage volume, and deadline..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; padding: 0.9rem; font-size: 0.95rem;">
+              <span>Submit Project Inquiry &rarr;</span>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 2.5rem; border-top: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); flex-wrap: wrap; gap: 1rem;">
+        <div>
+          &copy; 2024&ndash;2026 <strong>Rama Chandra</strong>. Senior Photo Retoucher &amp; Video Editor. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#hero" style="color: var(--text-muted); text-decoration: none;">Back to Top ↑</a>
+          <a href="mailto:ramachandra.vfx@gmail.com" style="color: var(--accent-ps-blue); text-decoration: none;">ramachandra.vfx@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CASE STUDY MODAL
+       ========================================================================== -->
+  <div id="cinema-modal" class="cinema-modal-overlay" role="dialog" aria-modal="true">
+    <div class="cinema-modal-container">
+      <div class="modal-header-bar">
+        <h3 style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; display: flex; align-items: center; gap: 0.6rem;">
+          <span style="color: var(--accent-ps-blue);">🔍</span> <span id="modal-video-title">Project Case Study</span>
+        </h3>
+        <button class="modal-close-btn" id="modal-close-btn">&times;</button>
+      </div>
+
+      <div class="modal-player-stage">
+        <iframe id="modal-video-frame" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="modal-body-scroll">
+        <div id="modal-meta-chips" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1.25rem;"></div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
+          <div style="background: #101420; border: 1px solid var(--border-subtle); padding: 1.25rem; border-radius: 12px;">
+            <h4 style="color: var(--accent-gold); margin-bottom: 0.5rem; font-size: 0.95rem;">The Challenge</h4>
+            <p id="modal-challenge-text" style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.55;"></p>
+          </div>
+          <div style="background: #101420; border: 1px solid var(--border-subtle); padding: 1.25rem; border-radius: 12px;">
+            <h4 style="color: var(--accent-ps-blue); margin-bottom: 0.5rem; font-size: 0.95rem;">The Retouch &amp; Cut Solution</h4>
+            <p id="modal-solution-text" style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.55;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       ZERO-G PHYSICS OVERLAY
+       ========================================================================== -->
+  <div id="zero-g-canvas-container">
+    <canvas id="zero-g-canvas"></canvas>
+    <div class="zero-g-hud">
+      <span style="color: var(--accent-ps-blue); font-weight: 700;">⚡ ZERO-G DARKROOM SIMULATOR</span>
+      <button class="zero-g-btn" id="zg-btn-zero">Zero-G (0.0)</button>
+      <button class="zero-g-btn" id="zg-btn-micro">Micro-G (0.05)</button>
+      <button class="zero-g-btn" id="zg-btn-invert">Invert (-0.4)</button>
+      <button class="zero-g-btn" id="zg-btn-earth">Earth (1.0)</button>
+      <button class="zero-g-btn" id="zg-btn-spawn">+ Spawn Badge</button>
+      <button class="zero-g-btn exit-btn" id="zg-btn-exit">✕ Exit</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING CINEMATIC MUSIC PLAYER WIDGET
+       ========================================================================== -->
+  <div class="floating-music-player" id="floating-music-player">
+    <button class="player-disc-btn" id="music-player-toggle" title="Play / Pause Soundtrack">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+      </svg>
+    </button>
+    <div class="player-info-meta">
+      <div class="player-track-name">AAYAA SHER (Cinematic Edit)</div>
+      <div class="player-track-sub">
+        <span id="music-time-display">00:00 / 04:47</span>
+        <span>&bull; Telugu Action Score</span>
+      </div>
+      <div class="player-scrubber-wrap" id="music-scrubber-wrap" title="Click to seek">
+        <div class="player-scrubber-fill" id="music-scrubber-fill"></div>
+      </div>
+    </div>
+    <div class="player-visualizer-bars">
+      <div class="viz-bar"></div>
+      <div class="viz-bar"></div>
+      <div class="viz-bar"></div>
+      <div class="viz-bar"></div>
+      <div class="viz-bar"></div>
+    </div>
+  </div>
+
+  <div id="toast-notice" class="toast-notice">Notice message</div>
+
+  <!-- Scripts -->
+  <script src="js/matter.min.js"></script>
+  <script src="js/physics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
